@@ -71,7 +71,7 @@ def setup_logger ():
 
 def parse_arguments () -> BuildContext:
     # Create Argument Parser
-    parser = argparse.ArgumentParser (description="Build Project Silicium UEFI for the defined ARM64-Based Device.")
+    parser = argparse.ArgumentParser (description="Build viZBIOS UEFI for the defined ARM64-Based Device.")
 
     # Add Script Arguments
     parser.add_argument ("-d", "--device",            type=str, required=True,                                   help="Defines the Device to Build.")
